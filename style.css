@@ -1,0 +1,61 @@
+body {
+  font-family: "Rubik";
+  background-color: #e5e5e5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app {
+  width: 350px;
+  height: 500px;
+  border: 5px solid #abcea1;
+  border-radius: 8px;
+  padding: 25px;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+.app::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+#addNew {
+  background-color: rgba(171, 206, 161, 0.35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fa-plus {
+  background-color: #abcea1;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+#tasks div {
+  background-color: #e2eede;
+  border: 3px solid #abcea1;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.options {
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+}
+
+.options i {
+  cursor: pointer;
+}
+
+#msg {
+  color: red;
+  font-size: 14px;
+}
